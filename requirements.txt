@@ -1,0 +1,4 @@
+ipycytoscape @ file:///home/conda/feedstock_root/build_artifacts/ipycytoscape_1662989928329/work
+numpy==1.24.4
+pandas==2.0.3
+scipy==1.11.1
