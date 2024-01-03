@@ -1,5 +1,5 @@
 # X2K pathway analysis
-This repository implements the eXpression2Kinases pipeline to infer upstream TFs, intermediates, and kinases from user-inputted lists of genes.
+This repository implements the eXpression2Kinases pipeline to infer upstream TFs, intermediates, and kinases from user-inputted lists of genes. Download the repo and add your gene-set files in the folder, install the requirements, and execute:
 
 ## Steps
 1. [run_x2k](https://github.com/MaayanLab/x2k-pathway-analysis/blob/main/run_x2k.ipynb): Input up- and down- gene set files (containing the up- and down- gene sets for each sample as columns) to the notebook. The notebook then produces files with the predicted TFs, intermediates, and kinases for each sample. If phosphoproteomics are available, you can find the overlap of kinases enriched in both transcriptomics and phosphoproteomics.
